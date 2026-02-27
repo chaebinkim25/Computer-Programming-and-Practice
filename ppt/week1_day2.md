@@ -47,9 +47,17 @@
 - **`0`:** what does a successful finish look like?
   The standard integer value returned to the operating system at the end of main to signal that the program executed successfully and naturally, without encountering any fatal errors.
 
-- **`;`:**
-- **gdb:**
-- **`+`:**
+- **`;`:** how do we end an instruction?
+  The semicolon acts as the essential end-of-statement marker in C. 
+  It tells the compiler exactly where one instruction finishes and the next begins, functioning much like a period at the end of an English sentence.
+
+- **gdb:** how do we find mistakes in our code?
+  The GNU Debugger. 
+  It is a powerful command-line tool that allows you to peek inside your program while it is executing (or exactly when it crashes). 
+  You can set "breakpoints" to pause execution, step through your C code line by line, and inspect the exact values stored in your variables at any given moment.
+
+- **`+`:** how do we add values?
+
 - **`-`:**
 - **`*`:**
 - **`/`:**
